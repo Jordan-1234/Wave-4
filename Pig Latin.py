@@ -8,6 +8,8 @@ def piglatin(word):
         for i in range(len(word)):
             if word[0] not in vowels:
                 word = word[1:] + word[0]
+            else:
+                break
         print(word + "ay")
 
 piglatin(str(input()))
