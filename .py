@@ -5,11 +5,11 @@ def reverse_lookup(dictionary, value):
             keys.apprend(key)
     return keys
 
-    name_Of_Animal = {
+    names = {
         "John": "Dog",
         "John": "Cat",
         "Mary": "Lizard",
         "Caleb": "Rat"
     }
-    print("The peoples names are: ", reverse_lookup(names_and_ages, "John"))
+    print("The peoples names are: ", reverse_lookup(names, "John"))
     print()
